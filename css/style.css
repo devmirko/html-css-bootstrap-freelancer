@@ -51,3 +51,39 @@ nav{
     width: 100%;
     border-radius: 20px;
 }
+
+/* sezione about */
+#about{
+    background-color:  #1ABC9C;
+    color: white;
+}
+
+.text{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* sezione form */
+#form{
+    /* debug */
+    min-height: 600px;
+}
+
+
+
+
+
+
+/* footer */
+/* sezione info */
+#info{
+    /* debug */
+    background-color: #3A546D;
+    min-height: 500px;
+}
+
+#privacy{
+    /* debug */
+    background-color: #2C3E50;
+    min-height: 100px;
+}
