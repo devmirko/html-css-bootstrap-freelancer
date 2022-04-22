@@ -1,4 +1,6 @@
+/* CLASSI GENERALI */
 
+/* STILE DELLA PAGINA */
 #testata{
     /* debug */
     height: 85px;
@@ -19,4 +21,18 @@
     display: flex;
     /* debug */
     background-color: red;
+}
+
+
+/* sezione hero */
+#hero{
+    /* debug */
+    background-color: #1ABC9C;
+    min-height: 500px;
+
+}
+
+.box_hero{
+    text-align: center;
+    color: white;
 }
