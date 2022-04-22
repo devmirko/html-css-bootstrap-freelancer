@@ -1,5 +1,7 @@
 /* CLASSI GENERALI */
-
+.star{
+    /* text-align: center; */
+}
 /* STILE DELLA PAGINA */
 #testata{
     /* debug */
@@ -11,12 +13,13 @@
 .nav_logo{
     min-height: 85px;
     display: flex;
+    align-items: center;
     /* debug */
     
 }
 
 /* barra di navigazione */
-.nav_bar{
+nav{
     min-height: 85px;
     display: flex;
     /* debug */
@@ -35,4 +38,16 @@
 .box_hero{
     text-align: center;
     color: white;
+}
+
+/* sezione portfolio */
+.box_img{
+    max-width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.box_img img{
+    width: 100%;
+    border-radius: 20px;
 }
