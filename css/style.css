@@ -1,0 +1,22 @@
+
+#testata{
+    /* debug */
+    height: 85px;
+    background-color: blue;
+}
+
+/* logo */
+.nav_logo{
+    min-height: 85px;
+    display: flex;
+    /* debug */
+    
+}
+
+/* barra di navigazione */
+.nav_bar{
+    min-height: 85px;
+    display: flex;
+    /* debug */
+    background-color: red;
+}
