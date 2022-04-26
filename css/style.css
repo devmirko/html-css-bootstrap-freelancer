@@ -51,6 +51,10 @@
     border-color: white;
 }
 
+.navbar-nav{
+    background-color: #2c3e505f;
+}
+
 
 /* sezione hero */
 #hero{
