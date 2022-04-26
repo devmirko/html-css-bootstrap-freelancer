@@ -41,6 +41,10 @@
 #navbarText ul li a{
     color: white;
 }
+#testata .navbar-toggler{
+    color: white;
+    border-color: white;
+}
 
 .navbar-toggler{
     color: white;
