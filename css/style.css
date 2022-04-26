@@ -3,28 +3,35 @@
     /* text-align: center; */
 }
 /* STILE DELLA PAGINA */
+
+/* nav */
 #testata{
     /* debug */
     height: 85px;
-    background-color: blue;
+    background-color: #2C3E50;
+    display: flex;
 }
 
-/* logo */
-.nav_logo{
-    min-height: 85px;
-    display: flex;
-    align-items: center;
-    /* debug */
-    
+#testata .navbar{
+    width: 100%;
 }
 
-/* barra di navigazione */
-nav{
-    min-height: 85px;
-    display: flex;
-    /* debug */
-    background-color: red;
+#testata .bg-light{
+    --bs-bg-opacity: 0;
 }
+
+#testata .navbar-brand{
+    color: white;
+}
+
+#testata #navbarText{
+    flex-grow: 0;
+}
+
+#navbarText ul li a{
+    color: white;
+}
+
 
 
 /* sezione hero */
