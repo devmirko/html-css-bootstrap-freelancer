@@ -142,11 +142,38 @@
 .my_btn i{
     margin-right: 5px;
 }
+
+.my_btn:hover{
+    color: white;
+}
+
+
 /* sezione form */
 #form{
     /* debug */
-    min-height: 600px;
+    margin-top: 50px;
 }
+
+/* titolo */
+
+#form .star .line{
+    background-color: black;
+}
+
+#form h3{
+    font-weight: 700;
+    font-size: 28px;
+ }
+
+ #form .form-control{
+     border: none;
+     border-bottom: 1px solid #ccc;
+     border-radius: 0;
+ }
+ #form .btn-success{
+     background-color: #1ABC9C;
+     border-color: #1ABC9C;
+ }
 
 
 
