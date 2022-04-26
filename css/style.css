@@ -1,5 +1,6 @@
 /* CLASSI GENERALI */
 .star{
+    width: 100%;
     margin: 10px 0;
     display: flex;
     justify-content: center;
@@ -79,14 +80,35 @@
 }
 
 /* sezione portfolio */
+/* titolo */
+#portfolio{
+    margin-top: 100px;
+}
+#portfolio h3{
+   font-weight: 700;
+   font-size: 28px;
+}
+
+#portfolio .star{
+    margin-bottom: 20px;
+}
+
+#portfolio .star .line{
+    background-color: black;
+}
+/* sezione immagini */
+
 .box_img{
     max-width: 100%;
-    margin-bottom: 10px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    margin-right: 10px;
     
 }
 
 .box_img img{
     width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 
