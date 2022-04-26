@@ -176,20 +176,47 @@
  }
 
 
-
-
-
-
 /* footer */
 /* sezione info */
 #info{
     /* debug */
     background-color: #3A546D;
-    min-height: 500px;
+    padding: 20px 0;
 }
 
+#info h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+#info p{
+   color: white;
+   font-weight: 700;
+   font-size: 18px;
+}
+
+#info ul li {
+/* margin-right: 10px; */
+list-style-type: none;
+}
+#info ul li a{
+    width: 50px;
+    min-height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 0 10px;
+}
 #privacy{
     /* debug */
     background-color: #2C3E50;
     min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
