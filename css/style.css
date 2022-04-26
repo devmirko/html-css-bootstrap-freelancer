@@ -1,6 +1,15 @@
 /* CLASSI GENERALI */
 .star{
-    /* text-align: center; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 20%;
+    height: 2px;
+    background-color: white;
+    margin: 0 10px;
 }
 /* STILE DELLA PAGINA */
 
@@ -32,6 +41,10 @@
     color: white;
 }
 
+.navbar-toggler{
+    color: white;
+    border-color: white;
+}
 
 
 /* sezione hero */
@@ -39,12 +52,30 @@
     /* debug */
     background-color: #1ABC9C;
     min-height: 500px;
+    padding: 10PX 0;
 
 }
 
 .box_hero{
     text-align: center;
     color: white;
+}
+
+.box_hero h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#avatar{
+    width: 80%;
+
+}
+
+.sub_title{
+    font-weight: 700;
+    font-size: 18px;
+   
 }
 
 /* sezione portfolio */
